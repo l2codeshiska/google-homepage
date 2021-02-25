@@ -1,0 +1,41 @@
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}  
+
+a {
+    position: relative;
+    left: 70%;
+    top: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    color:black;
+    
+}
+
+#sign-in {
+    background-color: rgb(43, 125, 233);
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+
+}
+
+#sign-in:hover{
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    display: block;
+    border-radius: 20px;
+    margin: 20px auto;
+    border-color: lightgrey;
+    border-width: 1px;
+}  
