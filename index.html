@@ -1,42 +1,46 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
     <head>
         <title>Google</title>
-        <link rel="stylesheet" href="style.css">  
+        <link href="./style.css" type="text/css" rel="stylesheet">  
     </head>
 
 
-    <header>
-        <a id="gmail" href="https://www.gmail.com">Gmail</a>
-        <a id="google-images" href="https://www.google.fr/imghp?hl=en&ogbl">Images</a>
-
-        <form action="fakelink.fr">
-            <div id="right-buttons">
-                <button id="google-apps" type="submit" style="position: relative;
-                left: 80%; text-align: center;">Google-Apps</button>
-                <button id="sign-in" type="submit" style="position: relative;
-                left: 82%;">Sign-in</button>
-            </div>
-        </form>
-    </header>
-
+    <nav>
+        <a href="https://www.gmail.com">Gmail</a>
+        <a href="https://www.google.fr/imghp?hl=en&ogbl">Images</a>
+        <a id="google-apps" href="https://www.google.com">
+            <img src="apps-icon.png" alt="Google-apps">
+        </a>
+        <a id="sign-in" href="https://www.google.com" >
+            <img src="sign-icon.png">
+        </a>
+    </nav>
 
     <body>
-        <img src="google.png">
-
-        <form action="fakelink.fr">
+        <div id="center">
+        <img id="logo" src="google.png">
+        <form action="https://www.google.com">
             <input type="text" required>
-            <button id="google-search" type="submit" style="position: relative;
-            left: 40%;">Google search</button>
-            <button id="google-lucky" type="submit" style="position: relative;
-            left: 40%;">I'm feeling lucky</button>
+            <button id="google-search" type="submit">Google search</button>
+            <button id="google-lucky" type="submit">I'm feeling lucky</button>
         </form>
+        </div>
     </body>
 
 
     <footer>
-        France <hr> About Advertising Business How search works Consumer information Privacy Terms Settings
+        <div>
+            <a href="https://www.google.com">Advertising</a>
+            <a href="https://www.google.com">Business</a>
+            <a href="https://www.google.com">How search work</a>
+        </div>
+        <div>
+            <a href="https://www.google.com">Privacy</a>
+            <a href="https://www.google.com">Terms</a>
+            <a href="https://www.google.com">Settings</a>
+        </div>
     </footer>
 
 
